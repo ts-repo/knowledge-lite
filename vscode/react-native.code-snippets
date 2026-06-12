@@ -1,0 +1,64 @@
+{
+  "usee": {
+    "prefix": "usee",
+    "body": [
+      "useEffect(() => {",
+      "  $1",
+      "}, [$2]);"
+    ],
+    "description": "useEffect template"
+  },
+  "usf": {
+    "prefix": "usf",
+    "body": [
+      "useFocusEffect(",
+      "  useCallback(() => {",
+      "    $1",
+      "  }, [$2]),",
+      ");"
+    ],
+    "description": "useFocusEffect template"
+  },
+  "clg": {
+    "prefix": "clg",
+    "body": [
+      "console.log('$1', $2);"
+    ],
+    "description": "console.log with label"
+  },
+  "usel": {
+    "prefix": "usel",
+    "body": [
+      "const $1 = useSelector((state: RootState) => state.$2);"
+    ],
+    "description": "useSelector template"
+  },
+  "used": {
+    "prefix": "used",
+    "body": [
+      "const dispatch = useDispatch();"
+    ],
+    "description": "useDispatch template"
+  },
+  "rstyle": {
+    "prefix": "rstyle",
+    "body": [
+      "const styles = StyleSheet.create({",
+      "  $1: {",
+      "    $2",
+      "  },",
+      "});"
+    ],
+    "description": "StyleSheet.create template"
+  },
+  "asyncfn": {
+    "prefix": "asyncfn",
+    "body": [
+      "async function $1() {",
+      "  $2",
+      "}"
+    ],
+    "description": "async function template"
+  }
+}
+
