@@ -64,3 +64,21 @@ useCallback(() => {
 空で書けなくてOKです。既存コードをコピーして、型名と変数名を変えるところから始めます。
 
 
+## すぐ使うsnippet
+
+TypeScriptの形を空で書くのが難しい時は、まずsnippetで形を出します。
+
+| prefix | 展開するもの |
+| --- | --- |
+| tsconst | const |
+| tslet | let |
+| tsfn | function |
+| tsarrow | arrow function |
+| tsinterface | interface |
+| tstype | type |
+| tsunion | union type |
+| tsarray | array |
+| tsobj | object |
+| tstry | try/catch |
+| tsawait | await |
+| tsprops | Props型 |

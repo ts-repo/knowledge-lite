@@ -213,5 +213,140 @@
       "$1.find(($2) => $2.$3 === $4);"
     ],
     "description": "Array find template"
+  },
+  "tsconst": {
+    "prefix": "tsconst",
+    "body": [
+      "const $1 = $2;"
+    ],
+    "description": "TypeScript const template"
+  },
+  "tslet": {
+    "prefix": "tslet",
+    "body": [
+      "let $1 = $2;"
+    ],
+    "description": "TypeScript let template"
+  },
+  "tsstring": {
+    "prefix": "tsstring",
+    "body": [
+      "const $1: string = '$2';"
+    ],
+    "description": "TypeScript string const"
+  },
+  "tsnumber": {
+    "prefix": "tsnumber",
+    "body": [
+      "const $1: number = $2;"
+    ],
+    "description": "TypeScript number const"
+  },
+  "tsbool": {
+    "prefix": "tsbool",
+    "body": [
+      "const $1: boolean = $2;"
+    ],
+    "description": "TypeScript boolean const"
+  },
+  "tsarray": {
+    "prefix": "tsarray",
+    "body": [
+      "const $1: $2[] = [$3];"
+    ],
+    "description": "TypeScript array const"
+  },
+  "tsobj": {
+    "prefix": "tsobj",
+    "body": [
+      "const $1 = {",
+      "  $2: $3,",
+      "};"
+    ],
+    "description": "TypeScript object const"
+  },
+  "tsfn": {
+    "prefix": "tsfn",
+    "body": [
+      "function $1($2): $3 {",
+      "  return $4;",
+      "}"
+    ],
+    "description": "TypeScript function template"
+  },
+  "tsarrow": {
+    "prefix": "tsarrow",
+    "body": [
+      "const $1 = ($2): $3 => {",
+      "  return $4;",
+      "};"
+    ],
+    "description": "TypeScript arrow function template"
+  },
+  "tsvoid": {
+    "prefix": "tsvoid",
+    "body": [
+      "const $1 = ($2): void => {",
+      "  $3",
+      "};"
+    ],
+    "description": "TypeScript void arrow function"
+  },
+  "tsasyncarrow": {
+    "prefix": "tsasyncarrow",
+    "body": [
+      "const $1 = async ($2): Promise<$3> => {",
+      "  $4",
+      "};"
+    ],
+    "description": "TypeScript async arrow function"
+  },
+  "tstry": {
+    "prefix": "tstry",
+    "body": [
+      "try {",
+      "  $1",
+      "} catch (error) {",
+      "  console.log('$2 error', error);",
+      "}"
+    ],
+    "description": "try/catch template"
+  },
+  "tsawait": {
+    "prefix": "tsawait",
+    "body": [
+      "const $1 = await $2;"
+    ],
+    "description": "await result template"
+  },
+  "tsoptional": {
+    "prefix": "tsoptional",
+    "body": [
+      "$1?: $2;"
+    ],
+    "description": "optional property template"
+  },
+  "tsprops": {
+    "prefix": "tsprops",
+    "body": [
+      "type Props = {",
+      "  $1: $2;",
+      "};"
+    ],
+    "description": "React Props type template"
+  },
+  "tsimport": {
+    "prefix": "tsimport",
+    "body": [
+      "import { $1 } from '$2';"
+    ],
+    "description": "named import template"
+  },
+  "tsdefaultimport": {
+    "prefix": "tsdefaultimport",
+    "body": [
+      "import $1 from '$2';"
+    ],
+    "description": "default import template"
   }
 }

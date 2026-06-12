@@ -48,6 +48,20 @@ vscode/react-native.code-snippets
 | rninput | TextInput |
 | rstyle | StyleSheet.create |
 | asyncfn | async function |
+| tsconst | const |
+| tslet | let |
+| tsstring | string定数 |
+| tsnumber | number定数 |
+| tsbool | boolean定数 |
+| tsarray | array定数 |
+| tsobj | object定数 |
+| tsfn | 関数 |
+| tsarrow | arrow関数 |
+| tsvoid | void関数 |
+| tsasyncarrow | async arrow関数 |
+| tstry | try/catch |
+| tsawait | await結果代入 |
+| tsprops | Props型 |
 
 ## チートシートからsnippet化する考え方
 
