@@ -14,6 +14,7 @@ React Native / TypeScript の学習・実務メモ集です。
 - Styling cheatsheet
 - VSCode cheatsheet
 - VSCode snippets
+- Snippet registration guide
 
 ## Not Included
 
@@ -26,6 +27,7 @@ knowledge-lite/
 ├── README.md
 ├── react-native/
 │   ├── react-native-cheatsheet.md
+│   ├── react-cheatsheet.md
 │   ├── redux-cheatsheet.md
 │   ├── navigation-cheatsheet.md
 │   ├── debugging-cheatsheet.md
@@ -33,7 +35,9 @@ knowledge-lite/
 │   ├── vscode-cheatsheet.md
 │   └── styling-cheatsheet.md
 └── vscode/
-    └── react-native.code-snippets
+    ├── snippet-guide.md
+    ├── react-native.code-snippets
+    └── typescript-react-native.code-snippets
 ~~~
 
 ## How to Use
@@ -44,10 +48,13 @@ code /path/to/knowledge-lite
 
 必要なcheatsheetを開いて、React Native開発中の確認メモとして使います。
 
+VSCode snippetsを登録したい場合は、`vscode/snippet-guide.md` を見てください。
+
 ## Privacy
 
 - 個人情報は入れない
 - 実案件名や社内URLは入れない
 - 実ID/PWは入れない
 - 非公開メモや内部向け情報は入れない
+
 
