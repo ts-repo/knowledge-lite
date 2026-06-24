@@ -9,6 +9,8 @@ React Native / TypeScript の学習・実務メモ集です。
 - React Native cheatsheet
 - TypeScript cheatsheet
 - Redux cheatsheet
+- Redux sample templates
+- TanStack Query sample templates
 - Navigation cheatsheet
 - Debugging cheatsheet
 - Styling cheatsheet
@@ -29,6 +31,23 @@ knowledge-lite/
 │   ├── react-native-cheatsheet.md
 │   ├── react-cheatsheet.md
 │   ├── redux-cheatsheet.md
+│   ├── redux/
+│   │   ├── README.md
+│   │   ├── store.ts
+│   │   ├── hooks.ts
+│   │   ├── counterSlice.ts
+│   │   ├── userSlice.ts
+│   │   ├── CounterExampleScreen.tsx
+│   │   └── AppProviderExample.tsx
+│   ├── tanstack-query/
+│   │   ├── README.md
+│   │   ├── apiClient.ts
+│   │   ├── postsApi.ts
+│   │   ├── queryClient.ts
+│   │   ├── queryKeys.ts
+│   │   ├── usePosts.ts
+│   │   ├── PostsExampleScreen.tsx
+│   │   └── AppProviderExample.tsx
 │   ├── navigation-cheatsheet.md
 │   ├── debugging-cheatsheet.md
 │   ├── typescript-cheatsheet.md
@@ -47,6 +66,8 @@ code /path/to/knowledge-lite
 ~~~
 
 必要なcheatsheetを開いて、React Native開発中の確認メモとして使います。
+
+Reduxの雛形は `react-native/redux/README.md`、API呼び出しの雛形は `react-native/tanstack-query/README.md` から確認できます。
 
 VSCode snippetsを登録したい場合は、`vscode/snippet-guide.md` を見てください。
 
